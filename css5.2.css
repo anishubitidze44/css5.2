@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #07081A;
+}
+
+.navigation {
+    display: inline-flex;
+   max-width: 1040px;
+   width: 100%;
+padding-top: 24px;
+  justify-content: space-between;
+    align-items: center;
+   
+    
+}
+.main {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #261C51;
+}
+.logocontainer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.navbar {
+    display: flex;
+    gap: 16px;
+}
+.home {
+    color: #8CE900;
+}
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64px;
+        
+}
+.skin {
+    color: #FFF;
+    font-size: 48px;
+    justify-content: center;
+}
+.imgcontainer {
+    display: flex;
+    
+    align-items: center;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+}
+.thirdcontainer {
+    display: flex;
+    justify-content: center;
+}
+.thirddiv {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    padding: 40px 72px;
+    justify-content: space-between;
+    align-items: flex-start;
+    background: #242642;
+}
+.green {
+    color: #8CE900;
+    font-size: 56px;
+}
+.project {
+    color: #C0C0C0;
+    text-align: center;
+    font-size: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+}
+.footerdiv {
+    display: flex;
+    max-width: 1040px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.cloudo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    font-size: 16px;
+
+}
+.class {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    max-width: 264px;
+    width: 100%;
+    
+}
+.text {
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 14px;
+}
+.footernav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.greentext {
+    color: #8CE900;
+}
+.lastdiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    color: #fff;
+    font-size: 16px;
+    max-width: 147px;
+    width: 100%;
+}
